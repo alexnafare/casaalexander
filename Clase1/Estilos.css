@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+BODY{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+
+/*-----------------------------HEADER--------------------------*/
+.banner{
+   background-image: url("./img/27741.jpg") ;  
+    background-color: rgb(223, 80, 80);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+nav{
+    padding: 1rem;
+}
+.menuSuperior{
+        list-style-type: none;
+        text-align: center; 
+
+       
+}
+.menuSuperior li{
+    display: inline-flex;
+   
+}
+.menuSuperior a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(104, 7, 7);
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0.1rem;
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+     font-size: 7rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 4rem;
+    text-align: left;
+
+}
+.contenido{
+    background-color: rgba(233, 99, 99, 0.116);
+    padding: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+.local img{
+    width: 30%;
+    padding: 1rem;
+
+}
+.bordesredondeados{
+    border-radius: 60px;
+}
+/*------------------------------FOOTER---------------------------*/
+
+footer{
+background-color: rgba(119, 20, 20, 0.541);
+    color: white;
+    padding: 2rem;
+
+}
+
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menuFooter{
+    list-style-type: none;
+    text-align: justify;
+}
+.menuFooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
+
+.creditoFinal{
+    text-align: right;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: black;
+
+}
+/*------------------Contacto-----------*/
+header{
+    color: black;
+    font-family: sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+
+} 
+body{
+    background-color: rgb(224, 162, 118);
+
+}
+
+.contacto{
+    background-color: rgb(224, 162, 118);
+    padding: 1.5rem;
+width: 50%;
+
+}
+
+.btnForm{
+    display: flex;
+    justify-content: center;
+}   
+.btnEnviar{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 40%;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px;
+  
+}
+.formatoContacto input{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 5px crimson 
+
+}
